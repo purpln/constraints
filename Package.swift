@@ -8,5 +8,5 @@ let package = Package(
     platforms: [.iOS(.v9), .macOS(.v10_14), .tvOS(.v11), .watchOS(.v3)],
     products: [.library(name: "Constraints", targets: ["Constraints"])],
     dependencies: [],
-    targets: [.target(name: "Constraints", dependencies: []),]
+    targets: [.target(name: "Constraints")]
 )
